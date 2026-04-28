@@ -4,7 +4,7 @@ class Solution{
         int slow=0;
 
         for(int fast =1; fast<arr.length;fast++){
-            if(arr[fast!=arr[slow]]){
+            if(arr[fast]!=arr[slow]){
                 slow++;
                 arr[slow]=arr[fast]; // place unique element
             }
